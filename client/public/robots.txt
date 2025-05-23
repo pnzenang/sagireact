@@ -1,0 +1,3 @@
+user-agent:*
+Disallow:
+Sitemap:http://mysagi.org/Sitemap.xml
