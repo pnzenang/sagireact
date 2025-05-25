@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Portfolio = () => {
   const [showCard, setShowCard] = useState('all');
 
-  const handleProject = (category) => {
-    setShowCard(category);
-  };
+ 
 
   return (
     <>

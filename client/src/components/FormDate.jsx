@@ -1,6 +1,7 @@
-import DatePicking from "./DatePicking";
+/* eslint-disable react/prop-types */
+import DatePicking from './DatePicking';
 
-const FormDate = ({ name, label, size }) => {
+const FormDate = ({ name, label }) => {
   return (
     <div className='form-control '>
       <label className='label'>
