@@ -15,9 +15,9 @@ import { FaPencil, FaTrashCan } from 'react-icons/fa6';
 day.extend(advancedFormat);
 
 const TdStyle = {
-  ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-4 pl-3 text-[12px] font-bold text-white lg:py-7 lg:px-4`,
-  TdStyle: `text-dark border-b  border-primary bg-base-100  py-5 pl-12 text-left text-[12px]  font-medium uppercase`,
-  TdStyle2: `text-dark border-b border-primary bg-base-100  py-5 pl-12 text-left text-[12px] font-medium uppercase`,
+  ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-1 pl-1 text-[11px] font-bold text-white lg:py-6 lg:px-4`,
+  TdStyle: `text-dark border-b  border-primary bg-base-100  py-1 pl-12 text-left text-xs  font-bold uppercase`,
+  TdStyle2: `text-dark border-b border-primary bg-base-100  py-1 pl-12 text-left text-xs font-bold uppercase`,
 };
 
 const MembersContainer = () => {

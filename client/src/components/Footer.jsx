@@ -148,11 +148,3 @@ const NavLink = ({ label, link }) => {
     </li>
   );
 };
-
-const BottomNavLink = ({ label, link }) => {
-  return (
-    <a href={link} className='px-3 text-base text-gray-7 hover:text-white'>
-      {label}
-    </a>
-  );
-};
