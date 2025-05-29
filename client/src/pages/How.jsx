@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 
 import ScrollToTop from 'react-scroll-to-top';

@@ -1,17 +1,15 @@
-import { BsCart3, BsMoon, BsSun } from 'react-icons/bs';
-import { FaBarsStaggered, FaThemeisle } from 'react-icons/fa6';
+import { BsMoon, BsSun } from 'react-icons/bs';
+import { FaBarsStaggered } from 'react-icons/fa6';
 import { NavLinks } from '../components';
-import { styled } from 'styled-components';
 import Logo from './Logo';
 import { useHomeContext } from '../pages/HomeLayout';
 import { useDispatch } from 'react-redux';
 import { toggleTheme } from '../features/themeSlice';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { toggleSidebar } = useHomeContext();
-  const [theme, setTheme] = useState(false);
+  // const [theme, setTheme] = useState(false);
 
   const dispatch = useDispatch();
 

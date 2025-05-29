@@ -18,7 +18,7 @@ const ListUpdatesFaqs = () => {
           <div className='w-full px-4 xl:w-10/12'>
             <AccordionItem
               header='Do we still have to fill forms to add members?'
-              text='No, adding members is done straight on the association/delegate dashboard and the members information will end up on SAGI database, the delegate can then let the prospective members the exact date he or she will become vested.'
+              text='No, adding members is done straight on the association/delegate dashboard and the member information will end up on SAGI database, the delegate can then let the prospective members the exact date he or she will become vested.'
             />
             <AccordionItem
               header='Do we still have to fill forms to remove members?'

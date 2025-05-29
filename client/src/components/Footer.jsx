@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import Logo from './Logo';
 import SocialLinks from './SocialLinks';
-import { IoIosGlobe } from 'react-icons/io';
 import { FiPhoneCall } from 'react-icons/fi';
 import { FaRegEnvelope } from 'react-icons/fa6';
 import { HiOutlineBuildingOffice2 } from 'react-icons/hi2';

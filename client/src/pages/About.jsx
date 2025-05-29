@@ -1,4 +1,4 @@
-import { About2, Delegates, Services, Team, Timeline } from '../components';
+import { About2, Services, Timeline } from '../components';
 import ScrollToTop from 'react-scroll-to-top';
 const AboutUs = () => {
   return (
