@@ -1,17 +1,10 @@
 import { AiOutlineFieldNumber } from 'react-icons/ai';
 import { FaRegCalendarAlt, FaRegCalendarCheck } from 'react-icons/fa';
 import { BsInfoSquare, BsFillInfoSquareFill } from 'react-icons/bs';
-import {
-  Link,
-  Form,
-  useNavigation,
-  redirect,
-  useOutletContext,
-} from 'react-router-dom';
+import { Link, Form, useOutletContext } from 'react-router-dom';
 import MemberInfo from './MemberInfo';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { styled } from 'styled-components';
 
 day.extend(advancedFormat);
 
@@ -136,5 +129,4 @@ const Member = ({
     // </Wrapper>
   );
 };
-const Wrapper = styled.section``;
 export default Member;

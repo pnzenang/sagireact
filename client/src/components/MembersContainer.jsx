@@ -183,7 +183,7 @@ const MembersContainer = () => {
                                           to={`/dashboard/admin-edit-member/${_id}`}
                                           className='btn-xm bg-secondary rounded capitalize px-2 py-1 truncate text-white'
                                         >
-                                          <FaPencil className='w-6 h-6' />
+                                          <FaPencil className='w-4 h-4' />
                                         </Link>
 
                                         <Form
@@ -194,7 +194,7 @@ const MembersContainer = () => {
                                             type='submit'
                                             className='btn-xm bg-red-600 rounded capitalize px-2 py-1 truncate text-white'
                                           >
-                                            <FaTrashCan className='w-6 h-6' />
+                                            <FaTrashCan className='w-4 h-4' />
                                           </button>
                                         </Form>
                                       </>
