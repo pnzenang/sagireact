@@ -1,9 +1,5 @@
 import { toast } from 'react-toastify';
-import {
-  AnnouncementSearchContainer,
-  MembersContainer,
-  SearchContainer,
-} from '../components';
+import { AnnouncementSearchContainer } from '../components';
 import customFetch from '../utils/customFetch';
 import { useLoaderData } from 'react-router-dom';
 import { createContext, useContext } from 'react';
@@ -35,7 +31,8 @@ const Announcement = () => {
       <h2 className='text-primary  md:text-xl'>
         Delegate, check the name again to make sure you are announcing the right
         death and bravely click on the button "announce dead" in the deceased
-        member's card to announce the death. may his or her soul rest in peace.
+        member&apos;s card to announce the death. may his or her soul rest in
+        peace.
       </h2>
       <AnnouncementSearchContainer />
       <AnnouncementMembersContainer />

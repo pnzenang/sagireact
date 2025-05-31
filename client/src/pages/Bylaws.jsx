@@ -1,5 +1,5 @@
 import { Seo } from '../components/Seo';
-import pdf from '../documents/sagiRules.pdf';
+import pdf from '../documents/Internal-Rules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
@@ -229,17 +229,17 @@ const Bylaws = () => {
           <p>
             Matriculation numbers are attributed and published at least ninety
             (90) days after receiving a new list for registration or addition.
-            Every member of SAGI must be a US resident. No member association
-            may have two matriculation numbers. It is the responsibility of each
-            president/delegates of each association to ensure that their member
-            association is not registered twice. Any member who was previously a
-            SAGI member can be reinstated after paying all missed contributions,
-            in addition to a return fee and observe the waiting period of ninety
-            (90) days after SAGI’s receipt of the return fee payment. Names and
-            date of birth of individuals who belong to SAGI member associations
-            should be provided exactly as they are written on official documents
-            and without abbreviations. Name changes of deceased individuals are
-            not accepted after the death announcement.
+            No member association may have two matriculation numbers. It is the
+            responsibility of each president/delegates of each association to
+            ensure that their member association is not registered twice. Any
+            member who was previously a SAGI member can be reinstated after
+            paying all missed contributions, in addition to a return fee and
+            observe the waiting period of ninety (90) days after SAGI’s receipt
+            of the return fee payment. Names and date of birth of individuals
+            who belong to SAGI member associations should be provided exactly as
+            they are written on official documents and without abbreviations.
+            Name changes of deceased individuals are not accepted after the
+            death announcement.
           </p>
         </div>
       </div>

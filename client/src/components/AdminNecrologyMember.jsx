@@ -1,10 +1,6 @@
-import image from '../assets/person.png';
-import { Link, Form, useOutletContext } from 'react-router-dom';
-import MemberInfo from './MemberInfo';
+import { Link } from 'react-router-dom';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { styled } from 'styled-components';
-
 import { CONTRIBUTION_STATUS } from '../../../utils/constants';
 
 day.extend(advancedFormat);
@@ -76,7 +72,7 @@ const AdminNecrologyMember = ({
           <div className='mb-2 flex items-center justify-between '>
             <p>
               Date of Death:{'  '}
-              <span className=' font-bold uppercase'>{dateOfDeath} </span>{' '}
+              <span className=' font-bold uppercase'>{time} </span>{' '}
             </p>
             <p>
               Place of Death:{' '}
