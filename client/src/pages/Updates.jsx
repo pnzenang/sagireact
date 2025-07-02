@@ -10,7 +10,7 @@ import { Seo } from '../components/Seo';
 const Updates = () => {
   return (
     <Wrapper>
-      <section className=' my-10  '>
+      <section className=' my-20  '>
         <Seo title='SAGI' description='Helping people helping themselves' />
         <ScrollToTop smooth color='#0891b2' width='40' />
         <div>

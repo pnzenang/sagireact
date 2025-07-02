@@ -9,7 +9,7 @@ import { Seo } from './Seo';
 
 export default function About2() {
   return (
-    <section className='overflow-hidden px-5 py-20 lg:pt-[120px] flex justify-center'>
+    <section className='overflow-hidden px-5 py-20 lg:pt-20 flex justify-center'>
       <div className='container '>
         <div className='mx-auto mb-20 w-full max-w-[620px] text-center'>
           <Seo title='SAGI' description='Helping people helping themselves' />

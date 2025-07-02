@@ -122,7 +122,7 @@ const Tabs = ({ color }) => {
 
 export default function TabsRender() {
   return (
-    <section className=' my-10'>
+    <section className=' my-20'>
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div>
         <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>

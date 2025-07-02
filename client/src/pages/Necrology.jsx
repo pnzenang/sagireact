@@ -1,8 +1,5 @@
 import { toast } from 'react-toastify';
-import {
-  NecrologyMembersContainer,
-  NecrologyMembersSearchContainer,
-} from '../components';
+import { NecrologyMembersContainer } from '../components';
 import customFetch from '../utils/customFetch';
 import { useLoaderData } from 'react-router-dom';
 import { createContext, useContext } from 'react';
@@ -32,7 +29,7 @@ const Necrology = () => {
   const { data, searchValues } = useLoaderData();
 
   return (
-    <section className='my-10 align-element'>
+    <section className='py-20 align-element'>
       <Seo title='SAGI' description='Helping people helping themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div>

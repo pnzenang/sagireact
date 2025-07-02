@@ -9,7 +9,7 @@ import { TbUsersGroup } from 'react-icons/tb';
 const About = () => {
   return (
     <Wrapper>
-      <section className='overflow-hidden  pb-12 lg:pt-[60px] lg:pb-[90px] bg-base-200 rounded-lg '>
+      <section className='overflow-hidden  pb-12 lg:pt-[60px] lg:pb-20 bg-base-200 rounded-lg '>
         <div>
           <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content '>
             about us

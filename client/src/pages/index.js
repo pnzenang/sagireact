@@ -31,3 +31,4 @@ export { default as SingleNecrology } from './SingleNecrology';
 export { default as LegalNotice } from './LegalNotice';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermOfService } from './TermOfService';
+export { default as Cameroon } from './Cameroon';

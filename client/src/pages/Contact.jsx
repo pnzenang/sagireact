@@ -1,12 +1,19 @@
 import { FiPhoneCall } from 'react-icons/fi';
-import { FaEnvelope, FaRegEnvelope } from 'react-icons/fa6';
+import { FaRegEnvelope } from 'react-icons/fa6';
 import { HiOutlineBuildingOffice2 } from 'react-icons/hi2';
 import { Seo } from '../components/Seo';
 
 const Contact = () => {
   return (
     <>
-      <section className='relative z-10 overflow-hidden bg-base-200  dark:bg-dark  lg:py-[120px]'>
+      <section className='relative z-10 overflow-hidden bg-base-200  dark:bg-dark  lg:py-20'>
+        <div>
+          {/* <Seo title='SAGI' description='Helping people helping themselves' /> */}
+          <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>
+            Contact
+          </h1>
+          <div className='w-28 mt-3 h-1 bg-cyan-600 mx-auto mb-10'></div>
+        </div>
         <div className='container align-element '>
           <div className='-mx-4 flex flex-wrap lg:justify-between'>
             <div className='w-full px-4 lg:w-1/2 xl:w-6/12'>
@@ -15,8 +22,9 @@ const Contact = () => {
                   title='SAGI'
                   description='Helping people helping themselves'
                 />
+
                 <h2 className='mb-6 text-[32px] font-bold uppercase text-primary sm:text-[40px] lg:text-[36px] xl:text-[40px]'>
-                  LET'S GET IN TOUCH
+                  LET&apos;S GET IN TOUCH
                 </h2>
                 <p className='mb-9 text-base leading-relaxed text-body-color dark:text-dark-6'>
                   We would love to have you on board with us, but if you have
@@ -918,6 +926,7 @@ const Contact = () => {
 
 export default Contact;
 
+// eslint-disable-next-line react/prop-types
 const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
   return (
     <>
@@ -934,6 +943,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
   );
 };
 
+// eslint-disable-next-line react/prop-types
 const ContactInputBox = ({ type, placeholder, name }) => {
   return (
     <>

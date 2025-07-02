@@ -4,7 +4,7 @@ import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
   return (
-    <section className='  my-10 align-element'>
+    <section className='  my-20 align-element'>
       <Seo title='SAGI' description='Helping people helping themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div className='mb-12'>
