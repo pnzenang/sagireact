@@ -9,7 +9,7 @@ const Fatherland = () => {
           <div className='w-full px-4'>
             <div className='mx-auto mb-[60px] max-w-3xl  lg:mb-20'>
               <h2 className='mb-4 text-3xl font-bold text-center  md:text-6xl '>
-                SAGI Fatherland
+                SAGI-Fatherland
               </h2>
               <p className='text-base text-body-color dark:text-dark-6'>
                 Most of us came from somewhere, and left many family members and
