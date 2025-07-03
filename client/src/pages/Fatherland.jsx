@@ -90,7 +90,7 @@ const AccordionItem = ({ header, text, url }) => {
         className={`faq-btn flex w-full text-left`}
         onClick={() => handleToggle()}
       >
-        <div className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5'>
+        <div className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg   text-primary bg-secondary'>
           <FaChevronDown
             className={`fill-primary stroke-primary duration-200 ease-in-out w-10 text-primary ${
               active ? 'rotate-180' : ''
@@ -99,7 +99,7 @@ const AccordionItem = ({ header, text, url }) => {
         </div>
 
         <div className='w-full'>
-          <h4 className='mt-1 text-lg font-semibold'>{header}</h4>
+          <h4 className='mt-1 text-lg sm:text-2xl font-semibold'>{header}</h4>
         </div>
       </button>
 
