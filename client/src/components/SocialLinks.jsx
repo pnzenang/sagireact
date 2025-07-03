@@ -1,4 +1,3 @@
-import { styled } from 'styled-components';
 import socialLinks from '../utils/socialLinks';
 
 const SocialLinks = () => {

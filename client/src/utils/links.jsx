@@ -6,5 +6,5 @@ export const links = [
   { id: 5, url: 'bylaws', text: 'bylaws' },
   { id: 6, url: 'necrology', text: 'necrology' },
   { id: 7, url: 'contact', text: 'contact' },
-  { id: 7, url: 'cameroon', text: 'sagi cameroon' },
+  { id: 7, url: 'fatherland', text: 'sagi fatherland' },
 ];

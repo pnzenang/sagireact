@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import {
   About,
-  Cameroon,
+  Fatherland,
   How,
   Necrology,
   Team,
@@ -129,8 +129,8 @@ const router = createBrowserRouter([
         errorElement: <ErrorElement />,
       },
       {
-        path: 'cameroon',
-        element: <Cameroon />,
+        path: 'fatherland',
+        element: <Fatherland />,
         errorElement: <ErrorElement />,
       },
       {
