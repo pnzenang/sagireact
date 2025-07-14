@@ -1,11 +1,5 @@
-import {
-  FormInput,
-  SubmitBtn,
-  FormInput2,
-  FormInputs,
-  FormInput3,
-} from '../components';
-import { Form, redirect, Link } from 'react-router-dom';
+import { FormInput, SubmitBtn, FormInput2, FormInputs } from '../components';
+import { Form, redirect } from 'react-router-dom';
 import FormPhone from '../components/FormPhone';
 import Logo from '../components/Logo';
 import customFetch from '../utils/customFetch';
@@ -43,7 +37,7 @@ const Register = () => {
           />
           <FormInputs
             type='text'
-            label='middle and last names'
+            label='last and middle names'
             name='lastAndMiddleNames'
           />
         </div>
