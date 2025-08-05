@@ -43,8 +43,8 @@ const Contact = () => {
                       Location
                     </h4>
                     <p className='text-primary'>
-                      23612 Public House Road
-                      <br /> Clarksburg MD 20871
+                      9711 Washingtonian Blvd Suite 550
+                      <br /> Gaithersburg MD 20878
                     </p>
                   </div>
                 </div>

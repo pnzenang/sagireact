@@ -18,8 +18,8 @@ const Footer = () => {
               </div>
 
               <p className='mb-7 text-base text-gray-7 hover:text-white'>
-                SAGI gathers people from all areas of our motherland Cameroon fo
-                the awesome purpose of helping each other.
+                SAGI gathers people from all work of life for the awesome
+                purpose of helping each other.
               </p>
               <div className='-mx-3 flex items-center hover:text-white'>
                 <SocialLinks />
@@ -73,8 +73,11 @@ const Footer = () => {
                         <HiOutlineBuildingOffice2 className='w-6 h-6 text-primary' />
                       </span>
                     </div>
-                    <div className='ml-3 text-sm hover:text-white'>
-                      <p>23612 Public House Rd Clarksburg MD 20871</p>
+                    <div className='ml-3 text-xs hover:text-white'>
+                      <p>
+                        9711 Washingtonian Blvd Suite 550
+                        <br /> Gaithersburg MD 20878
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -93,31 +96,6 @@ const Footer = () => {
               Helps people help each other.
             </p>{' '}
           </h1>
-          {/* <div className='-mx-4 flex flex-wrap'> */}
-          {/* <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
-              <div className='my-1 flex justify-center   '>
-                <p className='text-base-content text-center '>
-                  &copy; {new Date().getFullYear()} SAGI: Active Solidarity, Ltd
-                  | Help people help each other.
-                </p>
-              </div>
-            </div> */}
-          {/* <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
-              <div className='my-1'>
-                <div className='-mx-3 flex flex-wrap items-center justify-center md:justify-end'>
-                  <BottomNavLink
-                    link='/privacy-policy'
-                    label='Privacy policy'
-                  />
-                  <BottomNavLink link='/legal-notice' label='Legal notice' />
-                  <BottomNavLink
-                    link='/term-of-service'
-                    label='Terms of service'
-                  />
-                </div>
-              </div>
-            </div> */}
-          {/* </div> */}
         </div>
       </div>
     </footer>
