@@ -7,11 +7,11 @@ const Fatherland = () => {
       <div className='container mx-auto'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>
-            <div className='mx-auto mb-[60px] max-w-3xl  lg:mb-20'>
+            <div className='mx-auto mb-[20px] max-w-6xl  lg:mb-210'>
               <h2 className='mb-4 text-3xl font-bold text-center  md:text-6xl '>
                 SAGI-Fatherland
               </h2>
-              <p className='text-base text-body-color dark:text-dark-6'>
+              <p className=' text-body-color dark:text-dark-6 text-xl'>
                 Most of us came from somewhere, and left many family members and
                 loved ones behind, and anytime one of them falls, we are called
                 to contribute for his or her funeral, one way or another.
