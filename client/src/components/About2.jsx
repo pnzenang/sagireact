@@ -35,7 +35,7 @@ export default function About2() {
             </div>
             <div className=' sm:border-r sm:border-stroke px-12 py-5'>
               <h3 className='mb-2 text-3xl sm:text-5xl font-bold text-dark '>
-                $7,000,000+
+                $13,000,000+
               </h3>
               <p className='text-body-color dark:text-dark-6'>
                 Raised for families
