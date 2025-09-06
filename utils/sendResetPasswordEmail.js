@@ -12,7 +12,7 @@ export const sendResetPasswordEmail = async ({
   return sendEmail({
     to: email,
     from: 'info@mysagi.org',
-    subject: 'Reset Password',
+    subject: 'Password Reset',
     html: `<h3>Hello, ${name}</h3>${message}`,
   });
 };
