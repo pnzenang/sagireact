@@ -130,7 +130,7 @@ export const forgotPassword = async (req, res) => {
     // const origin = "http://active-solidarity-com.onrender.com";
 
     // const origin = 'http://localhost:5173/';
-    const origin = 'https://www.mysagi.org';
+    const origin = 'https://www.mysagi.org/';
 
     await sendResetPasswordEmail({
       name: `${user.firstName}  ${user.lastAndMiddleNames}`,
