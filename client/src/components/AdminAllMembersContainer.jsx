@@ -13,7 +13,7 @@ import { FaPencil, FaTrashCan } from 'react-icons/fa6';
 day.extend(advancedFormat);
 
 const TdStyle = {
-  ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-1 pl-1 text-[11px] font-bold text-white lg:py-6 lg:px-4`,
+  ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-1 pl-1 text-[11px] font-bold  text-white lg:py-6 lg:px-4`,
   TdStyle: `text-dark border-b  border-primary bg-base-100  py-1 pl-12 text-left text-xs  font-bold uppercase`,
   TdStyle2: `text-dark border-b border-primary bg-base-100  py-1 pl-12 text-left text-xs font-bold uppercase`,
 };
@@ -94,9 +94,7 @@ const AdminAllMembersContainer = () => {
                             </th>
                             <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
-                            <th className={TdStyle.ThStyle}>
-                              Registration Date{' '}
-                            </th>
+                            <th className={TdStyle.ThStyle}>Longevity(days)</th>
 
                             <th className={TdStyle.ThStyle}>
                               {' '}
@@ -146,7 +144,7 @@ const AdminAllMembersContainer = () => {
                                 </td>
                                 <td className={TdStyle.TdStyle}>{firstName}</td>
                                 <td className={TdStyle.TdStyle}>{date2}</td>
-                                <td className={TdStyle.TdStyle}>{date}</td>
+                                <td className={TdStyle.TdStyle}>{m}</td>
                                 <td className={TdStyle.TdStyle}>
                                   {delegateRecommendation}
                                 </td>
