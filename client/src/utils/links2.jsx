@@ -52,10 +52,10 @@ const links2 = [
     path: 'all-deceased-admin',
     icon: <PiExcludeSquareDuotone />,
   },
-  {
-    text: 'register',
-    path: 'register',
-    icon: <SiGnuprivacyguard />,
-  },
+  // {
+  //   text: 'register',
+  //   path: 'register',
+  //   icon: <SiGnuprivacyguard />,
+  // },
 ];
 export default links2;

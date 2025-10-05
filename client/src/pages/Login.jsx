@@ -79,7 +79,7 @@ const Login = () => {
           <p className='text-center mt-4'>
             Not a member yet?
             <a
-              href='https://forms.gle/1az8VaLtgn7KZvtJ6'
+              href='/register'
               className='ml-2 link link-hover link-primary capitalize'
             >
               register

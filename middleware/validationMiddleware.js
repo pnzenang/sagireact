@@ -114,6 +114,8 @@ export const validateRegisterInput = withValidationErrors([
   body('associationCode')
     .notEmpty()
     .withMessage('association code is required')
+    .isAlpha()
+    .withMessage('Code must contain only letters')
     .isLength({ min: 4, max: 4 })
     .withMessage('association code should have 4 letters')
     .custom(async (associationCode) => {

@@ -10,7 +10,7 @@ const FormInput = ({
   return (
     <div className='form-control'>
       <label className='label'>
-        <span className='label-text capitalize'>{label}</span>
+        <span className='label-text '>{label}</span>
       </label>
       <input
         type={type}
