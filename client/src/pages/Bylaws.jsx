@@ -576,7 +576,7 @@ const Bylaws = () => {
             it corresponds to the association bank code. The deposit receipt
             must be sent via email after any deposit into SAGI accounts.
             <br /> <br />
-            <span className='font-bold'> 17.7. SAGI TESTIMONY </span>
+            <span className='font-bold'> 17.7.SAGI TESTIMONY </span>
             <br />
             Each bereaved family anticipating a contribution from SAGI must permit SAGI 
             or its representatives to deliver a brief testimony during any Farewell 
